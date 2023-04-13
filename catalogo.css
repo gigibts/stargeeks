@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #044467;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 20vh auto 10vh;
+    grid-template-areas:
+        "c c"
+        "a h"
+        "r r";
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    grid-area: c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+    flex-wrap: wrap;
+}
+
+header > div > img{
+    height: 90px;
+}
+.btnheader{
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 40px; 
+}
+
+.btnheader > a {
+    background-color: #A7D9F6;
+    color: black;
+    border-radius: 20px;
+    padding: 8px; 
+}
+
+aside{
+    grid-area: a;
+}
+
+main{
+    grid-area: h;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   row-gap: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav > h1{
+    background-color: #E981EB;
+    border-radius: 60px;
+    padding: 10px 10px;
+    color: black;  
+}
+
+nav > a{
+    background-color: #A7D9F6;
+    border-radius: 60px;
+    padding: 15px;
+    color: black;  
+}
+
+main > p{
+    background-color: #A7D9F6;
+    border-radius: 60px ;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+    background-color: #C9D8FF;
+}
+
+.linha1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+
+.linha1 > p{
+background-color: black;
+color: white;
+padding: 5px;
+}
+.linha2 > p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.linha2{
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+}
+
+footer{
+    grid-area: r;
+    background-color: #044467;
+ 
+}

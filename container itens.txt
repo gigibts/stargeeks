@@ -1,0 +1,66 @@
+ 
+         <div class="card">
+            <div class="carding1">
+                <img src="imagens/album bruno mars.jpg">
+            </div>
+
+            <div class="cardinfo">
+                <div class="cardnome">
+                    <a href="">Editar</a>
+                    <br>
+                    <br>
+                    <a href="">Excluir</a>
+                </div>
+            </div>
+         </div>
+
+          <div class="cards">
+
+         <div class="card">
+            <div class="cardimg">
+                <img src="imagens/album proof bts.jpg">
+            </div>
+
+            <div class="cardinfo">
+                <div class="cardnome">
+                    <a href="">Editar</a>
+                    <a href="">Excluir</a>
+                </div>
+            </div>
+         </div>
+        
+
+        </div>
+
+
+
+
+
+<div class="card">
+            <div class="carding1">
+                <img src="imagens/adele.webp">
+            </div>
+
+            <div class="cardinfo">
+                <div class="cardnome">
+                    <a href="">Editar</a>
+                    <br>
+                    <br>
+                    <a href="">Excluir</a>
+                </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="carding1">
+                <img src="imagens/luan city.jpg">
+            </div>
+
+            <div class="cardinfo">
+                <div class="cardnome">
+                    <a href="">Editar</a>
+                    <br>
+                    <br>
+                    <a href="">Excluir</a>
+                </div>
+            </div>
+         </div>

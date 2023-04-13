@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+   display: grid;
+   height: 65vw;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 194px auto 51px;
+    grid-template-areas: 
+    "h h"
+    "c p"
+    "r r" ;
+}
+
+header {
+    grid-area: h;
+    background-color:#044467;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    grid-area: c;
+}
+
+main{
+    grid-area: p; 
+}
+
+footer{
+    grid-area: r;
+}
+
+header img{
+    height: 155px;
+    margin: 25px;
+}
+
+section{
+  grid-area: c;
+  background-color: #A7D9F6;
+
+}
+main {
+    grid-area: p;
+    background-color: #A7D9F6;
+    
+}
+footer{
+    grid-area: r;
+    background-color: #044467;
+}
+
+
+.cards{
+    display: flex;
+
+}
+
+
+.card img{
+    width: 221px;
+    height: 249px;
+}
+
+
+
+section> a{
+    color: white;
+    border-radius: 2px ;
+    padding:20px ;
+    font-weight:200 ;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 195px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header a{ 
+    bottom: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+section {
+    font-size: 40px;
+    color: black;
+    padding-left: 100px;
+    padding-top: 100px;
+
+}
+
+main p{
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+#btnc{
+    background-color: #42AFDE;
+    color: white;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0,5%;
+    padding-right: 0,5%;
+}

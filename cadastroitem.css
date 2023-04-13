@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #044467;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 231px;
+    grid-template-areas:
+        "c h"
+        "r r";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    grid-area: h;
+    display: flex;
+    padding: 5px;
+    background-color: #044467;
+    align-items:center;
+}
+
+.logo{
+
+}
+ .logoret {
+    width: 300px;
+
+ }
+
+main {
+    grid-area: c;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 2;
+    align-items: center;
+    
+}
+
+.cabecalho > a {
+    background-color: #A7D9F6;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    color: black;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > input {
+    font-size: 2rem;
+    background-color: #A7D9F6;
+}
+
+form > label {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+input[type="submit"] {
+
+width: 506px;
+height: 98px;
+
+
+background: #E981EB;
+border-radius: 23px;
+margin-top: 97px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 59px;
+
+color: #000000;
+}
+
+footer{
+    grid-area: r;
+    background-color:  #044467;;
+}
+
+.formtotal{
+    display: flex;
+    gap: 71px;
+
+}
+
+.forme{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.formd{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#inome{
+
+width: 528px;
+height: 60px;
+
+background: #A7D9F6;
+border-radius: 23px;
+}
+
+#icategoria{
+background: #FFFFFF;
+border: 2px solid #A7D9F6;
+border-radius: 20px;
+width: 368px;
+height: 60px;
+}
+
+#idescricao{
+width: 434px;
+height: 269px;
+
+background: #A7D9F6;
+border-radius: 23px;
+}
+
+.formbtn{
+    display: flex;
+    justify-content: center;
+}

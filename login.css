@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #044467;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas:
+        "c h"
+        "r r";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    grid-area: h;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #044467;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 555px;
+}
+
+.logo{
+    width: 450px;
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+ .logoret {
+    width: 300px;
+
+ }
+
+main {
+    grid-area: c;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    
+}
+
+.cabecalho > a {
+    background-color: #A7D9F6;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px ;
+    color: black;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > input {
+    font-size: 2rem;
+    background-color: #A7D9F6;
+}
+
+form > label {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #E981EB;
+    padding: 10px 40px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: rgba(133, 126, 126, 0.8) 3px 3px 3px;
+}
+
+
+footer{
+    grid-area: r;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
