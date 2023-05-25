@@ -25,7 +25,7 @@
                 <div class="formtotal">
                     <div class="formd">
                         <label for="inome">NOME DO ITEM:</label>
-                        <input type="text" name="" id="inome">
+                        <input type="text" name="inome" id="inome">
                         <label for="icategoria">CATEGORIA:</label>
                         <select id="icategoria">
                             <option value="LIV">Livros</option>
@@ -34,9 +34,11 @@
                             <option value="SER">Séries</option>
                             <option value="DOR">Doramas</option>
                             <option value="OUT">Outros</option>
-                      
                         </select>
+
+                        <input type="file" name="foto" id="foto">
                     </div>
+                 
                     <div class="forme">
                         <label for="idescricao">DESCRIÇÃO O ITEM:</label>
                         <input type="text" name="" id="idescricao">
@@ -47,7 +49,7 @@
                 </div>
                 
                 <div class="formbtn">
-                    <input type="submit" value="CADASTRAR ITEM"> 
+                    <input type="submit" value="CADASTRAR ITEM" id="btnitem"> 
                 </div>
                
             </form>
@@ -65,7 +67,7 @@
         </footer>
     
     </div>
-
+    <script src="cadastroitem.js"></script>
 
 
 </body>
