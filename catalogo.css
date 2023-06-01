@@ -90,6 +90,12 @@ main > p{
     
 }
 
+.card > img{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: #C9D8FF;
+}
 .cards {
     display: flex;
     justify-content: space-around;
@@ -99,8 +105,7 @@ main > p{
 .card{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    
+    width: 200px;
 }
 
 .info{
